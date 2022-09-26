@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Sanowa Enterprise</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/bc44072327.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="galary.html">GALLERY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars"  onclick="showMenu()"></i>
+    </nav>
+    
+  </section>
+
+<!----------Contact-us------------>
+<section class="blog-map">
+  <div class="row">
+    <div class="map-left">
+      <h2>Kakamega Branch</h2>
+      <p>Production and supply of concrete products</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7621921804543!2d34.761308514753225!3d0.3039148997782675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbf178403e3ab6671!2zMMKwMTgnMTQuMSJOIDM0wrA0NSc0OC42IkU!5e0!3m2!1sen!2ske!4v1663328024804!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div class="map-right">
+      <h2>Luandeti Branch</h2>
+      <p>Distribution oof concrete products,transport  and timber services</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.595364020588!2d34.85027411475344!3d0.6057214995580951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2548071c44c39e9b!2zMMKwMzYnMjAuNiJOIDM0wrA1MScwOC45IkU!5e0!3m2!1sen!2ske!4v1663328078312!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+ </section> 
+  <section class="contact-area">
+    <div class="container">
+      <div class="section-title">
+        <h4>Contact</h4>
+      </div>
+      <div class="contact">
+        <div class="contact-form">
+          <input type="text" placeholder="Your name">
+          <input type="email" placeholder="Your Email">
+          <input type="text" placeholder="Your Subject">
+          <textarea  placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Message">
+        </div>
+        <div class="contact-right">
+          <div class="single-contact">
+            <i class="fa-solid fa-location-pin"></i>
+            <h4>Address <span>Webuye,Kenya</span></h4>
+          </div>
+          <div class="single-contact">
+            <i class="fa-regular fa-envelope"></i>
+            <h4>Email<span>sanowa.enterprise@gmail.com</span></h4>
+          </div>
+          <div class="single-contact">
+            <i class="fas fa-phone-alt"></i>
+            <h4>Address <span>Webuye,Kenya</span></h4>
+          </div>
+          <div class="single-contact">
+            <i class="fa-solid fa-earth-americas"></i>
+            <h4>Website<span>www.sanowaenterprise.com</span></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+     
+  
+
+
+ <!---------Footer---------->
+ <footer>
+
+  <!--------<div class="waves">
+    <div class="wave" id="wave1"></div>
+    <div class="wave" id="wave2"></div>
+    <div class="wave" id="wave3"></div>
+    <div class="wave" id="wave4"></div>
+    -------->
+
+  </div>
+  <ul class="social_icons">
+    <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+    <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+    <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="galary.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <p>&copy; 2022 all rights  reserved</p>
+ </footer>
+ <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js">
+
+ </script>
+  
+  <!------java script for togle menu------>
+  <script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-200px";
+    }
+  </script>
+</body>
+</html>

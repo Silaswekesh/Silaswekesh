@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Sanowa Enterprise</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/bc44072327.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="galary.html">GALLERY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars"  onclick="showMenu()"></i>
+    </nav>
+  <h1>About us</h1>
+  </section>
+<!-----------About us------------->
+<section class="about">
+  
+  <p>The plant was established in April 2022 with the objective of making and distributing concrete products, as well as other building materials nationally. The focus is on the supply of concrete products, sand, stones, timber 
+    coupled with offering transport services.</p>
+    <div class="row">
+      <div class="about-col">
+        <h3>Vission</h3>
+        <p>To be an excellent and competitive enterprise
+           for the production of concrete products and distribution of building materials regionally 
+          and nationally, in Kenya.</p>
+      </div>
+      <div class="about-col">
+        <h3>Mission</h3>
+        <p>To produce concrete products and distribute materials through provision of improved and quality products for buildings and associated structures by making 
+          competitive the construction industry in Kenya</p>
+      </div>
+      <div class="about-col">
+        <h3>Core values</h3>
+        <p>Customer focus,Professionalisim,Intergrity <br> 
+        innovativeness,Partnership and Environmental consciosness</p>
+      </div>
+    </div>
+</section>
+
+<section class="blog-content">
+  <div class="row">
+    <div class="blog-left">
+      <img src="images/blog1.jpg" >
+      <h2>More About Sanowa Concrete Enterprise</h2>
+      <h4>The enterprise has invested in modern equipment including a modern Concrete Block making machine with accessories that guarantee full customer satisfaction. We also own a concrete mixer and
+         transportation trucks for hire.</h4>
+         <br>
+         <h4>The enterprise high concern on ensuring health safety and environmental compliance.
+           This is done through:</h4>
+           
+            <li>Ensuring environmental sustainability, health and safety of our employees, customers,
+               suppliers and neighboring community</li>
+            <li>Compliance with applicable environment, Health and safety laws 
+              and regulations.</li>
+            <li>Continuous improvement of our HSE management systems, pollution prevention practices 
+              and safety programs.</li>
+           
+           <br>
+           <h4>The Project has the following legal documents required for operation
+             within Kenya:</h4>
+              <ul>Certificate of Incorporation</ul>
+              <ul>NEMA Certificate</ul>
+              <ul>PIN Certificate</ul>
+           
+    </div>
+    <div class="blog-right">
+      <h3>Working hours</h3>
+      <div>
+        <span>Monday</span>
+       <span>8-5PM</span>
+      </div>
+      <div>
+        <span>Tuesday</span>
+       <span>8-5PM</span>
+      </div>
+      <div>
+        <span>Wednesday</span>
+       <span>8-5PM</span>
+      </div>
+      <div>
+        <span>Thursday</span>
+       <span>8-5PM</span>
+      </div>
+      <div>
+        <span>Friday</span>
+       <span>8-5PM</span>
+      </div>
+      <div>
+        <span>Saturday</span>
+       <span>8:30-4:30PM</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+ <footer>
+  </div>
+  <ul class="social_icons">
+    <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+    <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+    <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+  <ul class="menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="galary.html">Gallery</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <p>&copy; 2022 all rights  reserved</p>
+ </footer>
+ <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js">
+
+ </script>
+  
+  <!------java script for togle menu------>
+  <script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-200px";
+    }
+  </script>
+</body>
+</html>
